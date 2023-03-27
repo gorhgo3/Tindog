@@ -10,7 +10,7 @@
   <!--IMAGE IMPORTS-->
   <script src="https://kit.fontawesome.com/980b55d436.js" crossorigin="anonymous"></script>
   <!--CSS STYLE SHEET-->
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
 </head>
 
 <body>
@@ -46,7 +46,7 @@
               <button type="button" class="btn btn-outline-danger btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
-              <img class="phone_image pos" src="images/iphone6.png" alt="iphone-mockup">
+              <img class="phone_image pos" src="{{url_for('static', filename='images/iphone6.png')}}" alt="iphone-mockup">
             </div>
         </div>
       </div>
@@ -102,10 +102,10 @@
   </section>
   <!--TESTIMONIALS PRESS TESTIMONIALS PRESS TESTIMONIALS PRESS TESTIMONIALS PRESS TESTIMONIALS PRESS TESTIMONIALS PRESS TESTIMONIALS PRESS -->
   <section class="coloured-section" id="press">
-    <img class="press-image" src="images/techcrunch.png" alt="tc-logo">
-    <img class="press-image" src="images/tnw.png" alt="tnw-logo">
-    <img class="press-image" src="images/bizinsider.png" alt="biz-insider-logo">
-    <img class="press-image" src="images/mashable.png" alt="mashable-logo">
+    <img class="press-image" src="{{url_for('static', filename='images/techcrunch.png')}}" alt="tc-logo">
+    <img class="press-image" src="{{url_for('static', filename='images/tnw.png')}}" alt="tnw-logo">
+    <img class="press-image" src="{{url_for('static', filename='images/bizinsider.png')}}" alt="biz-insider-logo">
+    <img class="press-image" src="{{url_for('static', filename='images/mashable.png')}}" alt="mashable-logo">
   </section>
   <!-- PRICING PRICING PRICING PRICING PRICING PRICING PRICING PRICING PRICING PRICING PRICING PRICING PRICING PRICING -->
   <section class="white-section" id="pricing">
